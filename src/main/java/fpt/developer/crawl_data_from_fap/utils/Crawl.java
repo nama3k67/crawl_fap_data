@@ -101,5 +101,6 @@ public class Crawl {
         }
 
         newService.saveAll(news);
+        webDriver.quit();
     }
 }
