@@ -26,7 +26,7 @@ public class Crawl {
 
     @Scheduled(initialDelay = 10*1000, fixedDelay = 24*60*60*1000)
     public void check() throws ParseException {
-        WebDriverManager.chromedriver().setup();
+        System.setProperty("webdriver.chrome.driver","..\\crawl_fap_data\\chromedriver_win32\\chromedriver.exe");
         WebDriver webDriver = new ChromeDriver();
         WebDriverWait webDriverWait = new WebDriverWait(webDriver, 5);
         String baseUrl = "http://fap.fpt.edu.vn/Default.aspx";
