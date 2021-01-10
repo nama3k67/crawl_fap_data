@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>fpt.developer</groupId>
-    <artifactId>crawl_data_from_fap</artifactId>
+    <artifactId>crawlDataFromFap</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>crawl_data_from_fap</name>
+    <name>crawlDatFromFap</name>
     <description>Crawl data from fap</description>
 
     <properties>
